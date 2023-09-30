@@ -1,0 +1,117 @@
+/* Reset default styles and set a background color */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Style for main headings */
+h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Style for section headings */
+h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style for subheadings */
+h3 {
+    color: #444;
+    font-size: 20px;
+}
+
+/* Style for paragraphs */
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Style for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+#header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Contact section styles */
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Individual contact details box */
+#contact > div {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Remove margins for paragraph elements inside contact details */
+#contact > div p {
+    margin: 0;
+}
+
+/* Margin for various sections */
+#education,
+#projects,
+#skills,
+#experience,
+#certification,
+#languages {
+    margin: 20px 0;
+}
+
+/* Margin for individual items within sections */
+.item {
+    margin: 10px 0;
+}
+
+/* Section title styles */
+.section-title {
+    color: #007bff;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Profile image style */
+#profile-image {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Responsive design for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact > div {
+        width: 100%;
+    }
+}
